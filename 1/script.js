@@ -8,3 +8,11 @@ let temperatureCelsius = 40;
 let temperatureFahrenheit = (9/5)* temperatureCelsius + 32;
 console.log(`Температура в Цельсиях ${temperatureCelsius}`);
 console.log(`Температура по Фаренгейту ${temperatureFahrenheit}`);
+
+
+// Задание 2
+// Необходимо создать переменную name, записать в эту переменную свое имя. Необходимо также создать переменную admin и присвоить этой переменной значение из переменной name. Вывести значение переменной admin в консоль.
+
+const name = 'Лена';
+const admin = name;
+console.log(admin);
