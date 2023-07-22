@@ -17,10 +17,8 @@ function salary (number) {
 }
 
 let number = Number(prompt('Введите число'));
-if (typeof number === 'number') {
-    console.log(`Размер заработной платы за вычетом налогов равен ${salary(number)}`);
-}
-else console.log('Вы ввели неверное значение');
+if (isNaN(salary(number))) console.log('Вы ввели неверное значение');
+else console.log(salary(number));
 
 
 // Задание 3
